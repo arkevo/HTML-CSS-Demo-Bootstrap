@@ -1,0 +1,180 @@
+@import url("reboot.css");
+
+html {
+  position: relative;
+  min-height: 100%;
+  z-index: -1;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif, "Arial-Narow";
+  color: rgb(112, 112, 112);
+  background-image: url("../images/concrete_seamless.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#topheader {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background: #4aaaa5;
+  padding: 20px;
+  top: 0px;
+  position: relative;
+
+}
+
+.navbar {
+  position: relative;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border: solid;
+  border-width: 0px 0px 2px 0px;
+  color: #4aaaa5;
+
+}
+
+section {
+  margin:70px;
+  border: solid;
+  border: 3px; 
+  border-color: rgb(77, 77, 77);
+}
+
+
+.box {
+  padding: 30px;
+  margin-bottom:30px;
+  background-color: white;
+}
+
+.boxHeader {
+  color: #4aaaa5;
+  font-size: 32px;
+  font-weight: bold;
+
+  
+}
+
+#cat {
+  
+  width: 160px;
+  margin: 0 15px 15px 0;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 31px;
+  width: 91.5%;
+  padding: 2px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+
+  
+}
+
+#rock {
+  width: 87%; 
+  bottom: 33px;
+}
+
+.work {
+  margin-bottom: 25px;
+}
+
+
+  
+}
+.second-text {
+  padding-left: 15px;
+  text-align: justify;
+} 
+.form-headers {
+  padding: 10px;
+}
+
+
+
+
+
+
+footer {
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: #4aaaa5;
+  background: rgb(77, 77, 77);
+  color: rgb(199, 199, 199);
+  font-size: 10px;
+  text-align: center;
+  line-height: 22px;
+  padding: 20px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1180px) {
+  .main-text {
+    padding-left: 65px;
+    text-align: justify;
+  }
+  .work h3 {
+    width: 93%;
+  }
+  #rock {
+    width: 89%; 
+    bottom: 33px;
+  }
+ 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #cat { 
+      width: 420px;
+      margin: 0 15px 15px 0;
+    }
+    .work h3 {
+      
+      width: 88%;
+    }
+    #rock {
+      width: 95%; 
+      bottom: 33px;
+    }
+  }
+
+    @media only screen and (max-width: 574px) {
+     
+      .work h3 {
+        
+        width: 93%;
+      }
+      #rock {
+        width: 89%; 
+        bottom: 33px;
+      }
+    }
+
+      @media only screen and (max-width: 767px) and  (min-width: 576px) {
+        .work h3 {
+          width: 88%;
+        }
+        #rock {
+          width: 92%; 
+          bottom: 33px;
+        }
+      }
